@@ -1,0 +1,32 @@
+{
+    "name": "nikita/findrows",
+    "description": "",
+    "type": "project",
+    "keywords": ["findrows","rows"],
+    "license": "MIT",
+    "version": "0.0.1",
+    "repositories": [
+        {
+            "type": "path",
+            "url": ""
+        }
+    ],
+    "authors": [
+        {
+            "name": "4ukuta",
+            "email": "nikmel95@mail.ru"
+        }
+    ],
+    "require": {
+      "php": ">=7.0.0",
+      "symfony/yaml": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FindRows\\": "src/"
+        }
+    }
+}
